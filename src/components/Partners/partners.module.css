@@ -1,0 +1,58 @@
+.partners{
+    margin: 64px 75px;
+}
+.partnerList{
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    gap:130px ;
+}
+
+.partnerCard{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+}
+.partnerCard:not(:nth-child(1)){
+    margin-top: 72px    ;
+}
+.partnerImgContainer{
+    display: flex;
+    width: 350px;
+    justify-content: center;
+    align-items: center ;
+    height: 180px;
+    border:1px #E4E4E4 solid ;
+}
+.partnerImg{
+    
+    width: fit-content;
+    height: fit-content;
+}
+
+.partnerInfoContainer{
+    
+    width: 800px;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 72px;
+}
+.partnerName{
+    line-height: 40.8px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: start;
+    color: #000000;
+}
+.partnerInfo{
+    padding-top: 9px;
+    text-align: start;
+    color: #777777;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+  
+}

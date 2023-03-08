@@ -1,0 +1,123 @@
+.banner{
+    height:fit-content;
+    background-size: cover;
+}
+
+.bannerContent{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 166px 59px 166px 0px;
+    padding-bottom: 178px;
+}
+.bannerHeader{
+    color: white;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 76px;
+}
+.bannerText{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    padding-top:14px ;
+}
+
+.bannerBtn{
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 24px;
+    background-color: #AE2A26;
+    padding: 13px 37.5px;
+    pointer-events:visible;
+    outline: none;
+    display: block;
+    border: none;
+    margin-top: 34px;
+}
+
+.phoneIcon{
+    background-color: #AE2A26;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 20px;
+}
+
+.scrollDown{
+    width: 154px;
+    height: 29px;
+    position: absolute;
+    color: #ffffff;
+    right: 87.5px;
+    bottom:56px;
+    background-color: transparent;
+    outline: none;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: .2rem;
+    display: block;
+    border: none;
+    margin-bottom: 29px;
+    cursor: pointer;
+    -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);
+}
+.scrollDown::before,
+.scrollDown::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #FFFFFF33;
+}
+
+.scrollDown::before {
+    width: 95px;
+    top:0;
+    left: 0;
+  
+}
+
+.scrollDown::after {
+    width: 50px;
+  right: 0;
+  bottom: 0
+}
+
+.bannerContainer{
+    position: relative;
+}
+
+.bannerContainer{
+    position: relative;
+}
+
+.ibg{
+    position: relative;
+}
+.ibg img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit:cover;
+}
+.bannerBackground{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit:cover;
+    z-index: -50;
+    background: rgba(26, 26, 26, 0.6);
+}

@@ -1,0 +1,44 @@
+.partnersSlider{
+    max-width: 100%;
+    display: flex;
+    gap:40px;
+    padding-top: 54px;
+    justify-content: space-between;
+}
+
+.partnerCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px #DCDCDC solid;
+    padding: 0 23px;
+    transition: transform 0.2s;
+    flex-grow: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.partnerCard:hover{
+    transform: scale(1.1);
+}
+.container{
+   padding: 0 75px; 
+}
+.header{
+    text-align: start;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 45.6px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.subHeader{
+    color:#666666;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 14px;
+}
+

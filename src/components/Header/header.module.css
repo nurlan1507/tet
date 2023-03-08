@@ -1,0 +1,121 @@
+.header{
+    width: 100%;
+    padding-right: 75px;
+    padding-left: 75px;
+    box-sizing: border-box;
+    margin: 0;
+    height: 109px;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    align-items: center;
+    z-index: 20;
+    position: fixed;
+   top: 0;
+    left: 0;
+    background-color: #FFFF;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.logo{
+    position: relative;
+    width: 176xp;
+    height: 67.56;
+}
+
+.menu{
+    width: fit-content;
+    height: 67px;
+    display: flex;
+    list-style-type: none;
+    flex-direction:row;
+    align-items: center;
+    align-content: center;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.headerItems{
+    margin: 0px 26px
+}
+.langLogo{
+    display: flex;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    background-color: #223071;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.langLogoImg{
+    padding: 0;
+    margin: 0;
+}
+.langList{
+    display: flex;
+    align-items: center;
+}
+.langLink{
+    margin-left: 10px;
+}
+
+
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+
+
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+
+}
+
+
+@media only screen and (max-width: 1239px) {
+    .header{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .headerItems{
+        display: none;
+    }
+    .langList{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+
+}
+
+
+

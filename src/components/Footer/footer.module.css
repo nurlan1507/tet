@@ -1,0 +1,120 @@
+.footer{
+    height: fit-content;
+    background-color: #E7E7E7;
+    padding: 0 75px;
+}
+.footerContainer{
+    width: 100%;
+    display: flex;
+    padding-top: 90px;
+    gap: 62px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.footerItem{
+    width: fit-content;
+    height: fit-content;
+}
+.footerItemHeader{
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: black;
+}
+.footerItemList{
+    padding-top: 11px;
+}
+.footerListItem{
+    color:#555555;
+    font-size: 16px;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.footerItemDouble{
+    display: flex;
+}
+
+.footerLogo{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.footerItemHeaderContact{
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+
+@media only screen and (max-width: 1290px) {
+    .footerItemDouble{
+        display: none;
+    }
+    .offer{
+        display: none;
+    }
+    .footerContainer{
+        justify-content: baseline;
+    }
+
+}
+
+@media only screen and (max-width: 1039px) {
+    .branch{
+        display: none;
+    }
+    .filials{
+        display: none;
+    }
+
+.footerListItem{
+    color:#555555;
+    font-size: 20px;
+    line-height: 25px;
+    text-decoration: none;
+}
+}
+
+@media only screen and (max-width: 808px) {
+    .footerContainer{
+        width: 100%;
+        display: flex;
+        padding-top: 90px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footerListItem{
+        color:#555555;
+        font-size: 25px;
+        line-height: 40px;
+        text-decoration: none;
+        text-align: center;
+    }
+    .footerItemHeader{
+        font-weight: 700;
+        line-height: 22px;
+        font-size: 25px;
+        text-transform: uppercase;
+        color: black;
+        text-align: center;
+    }
+    .footerItemHeaderContact{
+        font-weight: 700;
+        line-height: 35px;
+        font-size: 25px;
+        text-transform: uppercase;
+        color: black;
+        text-align: center;  
+    }
+}

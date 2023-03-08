@@ -1,0 +1,100 @@
+.sertificates{
+    padding-top: 92px;
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sertificate{
+   max-width: 250px;
+}
+
+
+
+
+@media only screen and (max-width: 850px) {
+    .btnActive{
+     width: 20px;
+     height: 5px;
+     background-color: #AE2A26;
+     margin: 0 10px;
+   }
+ 
+ }
+ 
+ .btnActive{
+     width: 42px;
+     height: 5px;
+     background-color: #AE2A26;
+     margin: 0 10px;
+   }
+   .carouselBtn{
+     width: 10px;
+     height: 5px;
+     background-color: #15151580;
+   }
+   .carouselBtn:nth-child(2){
+   
+   }
+ 
+   .carouselBtn{
+     margin:0 10px;
+   }
+
+
+
+   @media only screen and (max-width: 850px) {
+    .btnActive{
+     width: 20px;
+     height: 5px;
+     background-color: #AE2A26;
+     margin: 0 10px;
+   }
+ 
+ }
+ 
+ .btnActive{
+     width: 42px;
+     height: 5px;
+     background-color: #AE2A26;
+     margin: 0 10px;
+   }
+   .carouselBtn{
+     width: 10px;
+     height: 5px;
+     background-color: #15151580;
+     cursor: pointer;
+
+   }
+   .carouselBtn:nth-child(2){
+   
+   }
+ 
+   .carouselBtn{
+     margin:0 10px;
+   }
+
+
+@media only screen and (max-width: 1366px){
+  .sertificates{
+    gap: 32px;
+  }
+  .sertificate{
+    max-width: 152px;
+  }
+}
+@media only screen and (max-width: 1284px){
+  .sertificates{
+    gap: 32px;
+  }
+  .sertificate{
+    max-width: 170px;
+  }
+}
+
+@media only screen and (max-width: 850px){
+  .sertificate{
+    max-width: 200px;
+  }
+}
