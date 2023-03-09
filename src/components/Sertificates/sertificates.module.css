@@ -95,6 +95,11 @@
 
 @media only screen and (max-width: 850px){
   .sertificate{
-    max-width: 200px;
+    max-width: 388px;
+  }
+}
+@media only screen and (max-width: 500px){
+  .sertificate{
+    max-width: 320px;
   }
 }

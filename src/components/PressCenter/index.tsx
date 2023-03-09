@@ -5,14 +5,17 @@ import { useEffect, useState } from 'react'
 const PressCenter =()=>{
     const [itemsPerPage, setItemPerPage] = useState(3)    
     useEffect(()=>{
-        if(window.innerWidth>=1800){
-            setItemPerPage(6)
+        if(window.innerWidth>1366){
+            setItemPerPage(3)
+            return
         }
         if(window.innerWidth <= 1366 && window.innerWidth > 1284){
             setItemPerPage(3)
+            return
         }
         if(window.innerWidth <= 1284 && window.innerWidth > 850){
-            setItemPerPage(3)
+            setItemPerPage(2)
+            return
         }else{
             setItemPerPage(1)
         }
@@ -21,8 +24,8 @@ const PressCenter =()=>{
         console.log("LLLL")
         setItemPerPage(1)   
     })
-    window.matchMedia("(max-width:1284px)").addEventListener('change', ()=>{setItemPerPage(3)})
-    window.matchMedia("(max-width:1800px)").addEventListener('change', ()=>{setItemPerPage(6)})
+    window.matchMedia("(max-width:1284px)").addEventListener('change', ()=>{setItemPerPage(2)})
+    window.matchMedia("(min-width:1600px)").addEventListener('change', ()=>{setItemPerPage(3)})
         
         
 

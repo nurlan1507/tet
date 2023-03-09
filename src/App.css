@@ -250,7 +250,7 @@ main{
 
 
 .main{
-  overflow: hidden  ;
+  overflow: hidden;
   padding: 0 75px;
   position: relative;
 }
@@ -289,5 +289,44 @@ main{
   
   .dashMainLeft{
     width: 120px;
+  }
+}
+
+
+
+.header{
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45.6px;  
+  padding-top: 25px;
+  padding-bottom: 10px;
+  margin: 0;
+} 
+.cardHeader{
+  font-weight: 500;
+  font-size:17px;
+  line-height: 25px;
+}
+.cardText{
+  line-height: 24px;
+  padding-top: 25px;
+  font-size: 15px;
+}
+.mainText{
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 16.9px;
+}
+
+.footerText{
+
+}
+
+@media only screen and (min-width: 1239px) {
+  .cardText{
+    font-size: 40px;
   }
 }

@@ -26,12 +26,11 @@
 }
 
 .pressCenters{
-
     display: flex;
     height: fit-content;
     gap: 32.5px;
-    padding-top: 54px;
     justify-content: space-between;
+    margin-top: 40px;
 }
 
 .pressCenter{
@@ -49,12 +48,7 @@
     height: 100%;
     object-fit: cover;
 }
-.sliderContainer{
-  width: 1440px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-}
+
 .pressCenterContent{
     height: fit-content;
     width: fit-content;
@@ -110,6 +104,9 @@
     background-color: #AE2A26;
     margin: 0 10px;
   }
+  .pressCenters{
+    justify-content: center;
+  }
 
 }
 
@@ -133,3 +130,39 @@
   .carouselBtn{
     margin:0 10px;
   }
+
+
+
+
+ 
+
+ @media only screen and (min-width: 1600px) {
+  
+  .pressCenter{
+      max-width: 500px;
+      height: 600px;
+  }
+  .pressCenters{
+    margin-top: 80px;
+  }
+  .imageContainer{
+    width: 100%;
+    height: 250px;
+}
+  .pressCenterImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .pressCenters p{
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .pressCenters h3{
+    font-size: 30px;
+    line-height: 40px;
+  }
+ 
+ }
+
+

@@ -121,3 +121,57 @@
     z-index: -50;
     background: rgba(26, 26, 26, 0.6);
 }
+
+
+@media only screen and(max-width:1150px){
+    .bannerHeader{
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 1150px) {
+    .bannerHeader{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .bannerBackground img{
+        float: left;
+    }
+
+}
+
+@media only screen and(max-width: 948px){
+    .bannerContent{
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:160px 0px 0px 0px;
+        
+    }
+    .banner{
+        display: flex;
+        justify-content: center;
+        height:fit-content;
+        background-size: cover;
+    }
+    .bannerContent h1,p{
+        text-align: center;
+    }
+    .bannerHeader{
+        text-align: center;
+    }
+    .bannerText{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #ffffff;
+        padding-top:14px ;
+    }
+    
+}
+
+

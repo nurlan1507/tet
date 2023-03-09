@@ -9,7 +9,6 @@ const Home = () => {
     return  (
         <> 
         <Banner/>
-    
         <Info/>
         <AboutCompany/>
         <PressCenter/>

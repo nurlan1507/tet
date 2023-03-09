@@ -1,6 +1,7 @@
 import styles from './sertificates.module.css'
 import { useEffect, useState } from 'react'
 const Sertificates=()=>{
+    const [itemsPerPage, setItemPerPage] = useState(6)   
     useEffect(()=>{
         if(window.innerWidth <= 850){
             setItemPerPage(1)
@@ -25,7 +26,7 @@ const Sertificates=()=>{
         {url:"http://localhost:3000/Group 9772.png"},
         {url:"http://localhost:3000/Group 9772.png"},
     ]
-    const [itemsPerPage, setItemPerPage] = useState(6)    
+     
 
     window.matchMedia("(max-width: 850px)").addEventListener('change',()=>{
         console.log("LLLL")

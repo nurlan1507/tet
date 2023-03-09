@@ -23,7 +23,6 @@
     flex-wrap: wrap;
     align-items: center;
     height: fit-content;
-    justify-content: center;
     padding-top: 49px;
     flex-grow: 1;
 }
@@ -109,11 +108,18 @@
     flex-direction: row;
     align-items: center;
     height: fit-content;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 49px;
     gap: 22px;
 }
+@media only screen and (max-width: 1224px) {
+    .offersCard{
+    }
+    .offersCardContainer{
+       gap: 20px;
+    }
 
+}
 .offersCard{
     width: 288px;
     display: flex;
@@ -168,6 +174,21 @@
 }
 
 
+
+@media only screen and (max-width: 1707px) {
+    .offersCard{
+        width: 220px;
+    }
+}
+@media only screen and (max-width: 1424px){
+    .offersCard{
+        width: 190px;
+    }
+    .offerText{
+        font-size: 15px;
+    }
+}
+
 @media only screen and (max-width: 1366px) {
     .offersCardContainer{
         width: 100%;
@@ -181,17 +202,7 @@
         gap: 22px;
     }
     
-    .offersCard{
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-        height: 312px;
-        border:1px solid #E3E3E3;
-        align-items: center;  
-        justify-content: s;
-        padding-left: 0;
-        padding-right: 0;
-    }
+    
     
     .infoImg{
         width: fit-content;
@@ -220,6 +231,16 @@
     
 }
 
+@media only screen and (max-width: 715px) {
+    .offersCardContainer{
+        justify-content: center;
+    }
+    .offersCard{
+        width: 288px;
+    }
+    
+
+}
 
 @media only screen and (max-width: 708px) {
     .infoCardContainer{
@@ -227,6 +248,7 @@
         flex-direction: column;
         display: flex;
     }
+    
 
 }
 
