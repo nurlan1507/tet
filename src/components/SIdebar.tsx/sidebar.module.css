@@ -6,7 +6,7 @@
     background-color: #FFFFFF;
     z-index: 2;
     transform: translateX(100%);
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in-out;
     position: fixed;
   }
   .sideMenu .active{
@@ -40,7 +40,8 @@
 }
 
 .headerItems{
-    margin: 0px 26px
+    margin: 0px 26px;
+    
 }
 .langLogo{
     display: flex;
@@ -76,24 +77,53 @@
     align-items: center;
     
 }
-
-
-.headerItems a{
+ .headerItemsA{
     font-size: 40px;
     line-height: 58px;
+    }
+
+.headerItems a{
+   
+}
+
+@media only screen and(max-width:643px){
+    .sideMenu{
+        display: flex;
+        width: 70%;
+        height: 100%;
+        position:absolute;
+        background-color: #FFFFFF;
+        z-index: 2;
+        transform: translateX(100%);
+        transition: all 0.5s ease-in-out;
+        position: fixed;
+      }
+      .headerItemsA{
+        font-size: 30px;
+        line-height: 40px;
+    }
 }
 
 @media only screen and (max-width:  593px) {
+    .headerItemsA{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .langLink{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:  526px) {
     .headerItems a{
         font-size: 35px;
         line-height: 50px;
     }
     .sideMenu{
-        width: 75%;
-        
+        width: 100%;
+        transform: translateX(0%);
         
       }
-      .sideMenu .active{
-        transform: translateX(75%);
-      }
+     
 }
+

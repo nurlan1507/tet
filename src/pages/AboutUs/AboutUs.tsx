@@ -11,15 +11,18 @@ const AboutUs =()=>{
         setCurrent(newPath)
     }
     return (
-        <section className={styles.aboutUs}>
+        <section className={`${styles.aboutUs} main`}>
             <div className={styles.content}>
-                <div className={styles.aboutUsBanner}>
+                <div className={`${styles.aboutUsBanner} main`}>
                 <div className={styles.aboutUsContent}>
                     <h1 className={styles.header}>
                         О КОМПАНИИ
                     </h1>
                     <p className={styles.subHeader}>Общая информация</p>
                 </div>
+                <div className={`${styles.bannerBackground} ${styles.ibg}`}>
+                 <img src={require("../../assets/aboutUs.png")}/>
+                 </div>
                 </div>
                 <nav>
                     <ul className={styles.navbar}>
@@ -31,6 +34,7 @@ const AboutUs =()=>{
                     </ul>
                 </nav>
             </div>
+           
             <Outlet/>   
         </section>
     )

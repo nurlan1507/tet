@@ -2,6 +2,7 @@ import { observable } from 'mobx'
 import { useState } from 'react'
 import styles from './header.module.css'
 import HtmlStates from '../../store/htmlStates'
+import { NavLink } from 'react-router-dom'
 const Header =()=>{
 
         // console.log(document.querySelector(`.${styles.langLink}`))
@@ -23,7 +24,9 @@ const Header =()=>{
             <img src={require('../../assets/logo.png')} alt="logo" className={styles.logo}/>
             <div className={styles.menu}>
                 <li className={styles.headerItems}> 
+                    <NavLink to={'aboutUs'}>
                     <a href="">о компании  <i style={{paddingLeft:"2px"}} className={`${styles.arrow} ${styles.down}`}></i></a>
+                    </NavLink>
                 </li>
                 <li className={styles.headerItems}>
                     <a  href="">филиалы <i style={{paddingLeft:"2px"}} className={`${styles.arrow} ${styles.down}`}></i></a>

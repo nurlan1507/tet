@@ -8,8 +8,8 @@
     height: fit-content;
     display: flex;
     flex-direction: column;
-    padding: 166px 59px 166px 0px;
-    padding-bottom: 178px;
+    padding: 250px 59px 166px 0px;
+
 }
 .bannerHeader{
     color: white;

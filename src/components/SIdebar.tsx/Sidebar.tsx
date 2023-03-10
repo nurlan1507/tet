@@ -3,27 +3,27 @@ import htmlStates from "../../store/htmlStates"
 import styles from './sidebar.module.css'
 import './sidebar.module.css'
 const Sidebar =observer(()=>{
-    return <div className={`${styles.sideMenu} ${styles.active}`}>
+    return <div className={`${styles.sideMenu} ${htmlStates.activeMenu ==false?styles.active:''}`}>
         <div className={styles.sidebarContent}>
         <img src={require('../../assets/logo.png')} alt="logo" className={styles.logo}/>
             <div className={styles.menu}>
                 <li className={styles.headerItems}> 
-                    <a href="">о компании</a>
+                    <a className={styles.headerItemsA}>о компании</a>
                 </li>
                 <li className={styles.headerItems}>
-                    <a href="">филиалы</a>
+                    <a href=""  className={styles.headerItemsA}>филиалы</a>
                 </li>
                 <li className={styles.headerItems}>
-                    <a href=""> услуги </a>
+                    <a href=""  className={styles.headerItemsA}> услуги </a>
                 </li>
                 <li className={styles.headerItems}>
-                    <a href="">пресс-центр</a>
+                    <a href="" className={styles.headerItemsA}>пресс-центр</a>
                 </li  >
                 <li className={styles.headerItems}>
-                    <a href="">ОТЗЫВЫ</a>
+                    <a href="" className={styles.headerItemsA}>ОТЗЫВЫ</a>
                 </li>
                 <li className={styles.headerItems}>
-                    <a href="">контакты</a>
+                    <a href="" className={styles.headerItemsA}>контакты</a>
                 </li>
             </div>
             <hr/>

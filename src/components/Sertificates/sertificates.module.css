@@ -1,16 +1,18 @@
 .sertificates{
     padding-top: 92px;
-    width: 100%;
     display: flex;
     gap: 32px;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 .sertificate{
-   max-width: 250px;
+   max-width: 250px
 }
 
-
+.sertificatesContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 
 @media only screen and (max-width: 850px) {
@@ -75,7 +77,14 @@
      margin:0 10px;
    }
 
-
+  @media only screen and (max-width: 1792px){
+    .sertificates{
+      gap: 32px;
+    }
+    .sertificate{
+      max-width: 200px;
+    }
+  }
 @media only screen and (max-width: 1366px){
   .sertificates{
     gap: 32px;
@@ -93,9 +102,19 @@
   }
 }
 
+@media only screen and (max-width: 952px){
+  .sertificate{
+    max-width: 388px;
+  }
+
+}
+
 @media only screen and (max-width: 850px){
   .sertificate{
     max-width: 388px;
+  }
+  .sertificates{
+    justify-content: center;
   }
 }
 @media only screen and (max-width: 500px){
@@ -103,3 +122,4 @@
     max-width: 320px;
   }
 }
+

@@ -5,7 +5,6 @@ const AboutCompany =()=>{
     return (
         <section className={`${styles.aboutCompanyContainer} main`}>
             <span className={styles.borderTextLeft}></span>
-            <span className={styles.borderTextRight}>Қамқор Вагон</span>
             <div className="dashMain"/>
             <h1 className={styles.header}> 
                 О КОМПАНИИ

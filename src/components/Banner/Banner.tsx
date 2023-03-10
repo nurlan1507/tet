@@ -29,7 +29,7 @@ const Banner =()=>{
             <div className={styles.phoneIcon}>
                 <img src={require("../../assets/contact.png")}/>
             </div>
-        </div>
+        </div>  
         <div className={`${styles.bannerBackground} ${styles.ibg}`}>
             <img src={require("../../assets/banner.png")}/>
         </div>

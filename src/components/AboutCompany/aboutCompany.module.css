@@ -25,9 +25,8 @@
 }
 
 .photosContainer{
-    width: 100%;
     display: flex;
-    padding: 52px 0;
+    padding: 52px 75px;
     height: fit-content;
     justify-content: space-between;
     margin: auto;
@@ -118,6 +117,22 @@
     } */
 }   
 
+@media only screen and (max-width: 963px) {
+    .photosContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1
+    }
+    .photoF{
+        width: 100%;
+    }
+    .photoS{
+        width: 100%;
+    }
+}   
+
 @media only screen and (max-width: 803px) {
 
     /* .map{
@@ -137,17 +152,17 @@
         margin: 0 auto;
     } */
     .photosContainer{
-        width: 90%;
         display: flex;
         flex-direction: column;
-        flex-grow: 1
+        align-items: center;
+        justify-content: center;
     }
-    .photoF{
-        width: 100%;
-        flex:1
+    .photosContainer img{
+        width: 300px;
     }
-    .photoS{
-        width: 100%;
-        flex:1        
-    }
+
+ 
+    
 }   
+
+

@@ -14,7 +14,7 @@ const Info =()=>{
                 <div className={styles.infoCard}>
                     <div className={styles.infoCardHeader}>
                         <h3 className={styles.number}>617</h3>
-                        <p>ЕДИНИЦ</p>
+                        <p className={styles.edinic}>ЕДИНИЦ</p>
                     </div>
                     <p className={styles.infoCardText}>
                         сервисного обслуживания<br/>  локомотивов за 2021 год
@@ -23,7 +23,7 @@ const Info =()=>{
                 <div className={styles.infoCard}>
                     <div className={styles.infoCardHeader}>
                         <h3 className={styles.number}> 5 493</h3>
-                        <p>ЕДИНИЦ</p>
+                        <p className={styles.edinic}>ЕДИНИЦ</p>
                        
                     </div>
                     <p className={styles.infoCardText}>
@@ -33,8 +33,7 @@ const Info =()=>{
                 <div className={styles.infoCard}>
                     <div className={styles.infoCardHeader}>
                         <h3 className={styles.number}>56</h3>
-                        <p>ЕДИНИЦ</p>
-                        
+                        <p className={styles.edinic}>ЕДИНИЦ</p>
                     </div>
                     <p className={styles.infoCardText}>
                     капитального ремонта <br/> локомотивов за 2021 год
@@ -43,7 +42,7 @@ const Info =()=>{
                 <div className={styles.infoCard}>
                     <div className={styles.infoCardHeader}>
                         <h3 className={styles.number}>14 367</h3>
-                        <p>вагонов</p>
+                        <p className={styles.edinic}>ВАГОНОВ</p>
                 
                     </div>
                     <p className={styles.infoCardText}>
