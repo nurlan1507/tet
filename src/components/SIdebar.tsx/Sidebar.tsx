@@ -38,7 +38,6 @@ const Sidebar =observer(()=>{
                 <a className={styles.langLink}>EN</a>
              </div>
         </div>
-         
     </div>
 })
 export default Sidebar
